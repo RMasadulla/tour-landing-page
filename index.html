@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Package Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 py-4">
+        <div class="container mx-auto text-center">
+            <img src="logo.png" alt="Logo" class="mx-auto w-24 animate-bounce">
+        </div>
+    </header>
+
+    <!-- Intro Description -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4 animate-fade-in">Welcome to Our Tour Packages</h1>
+            <p class="text-lg text-gray-600 max-w-xl mx-auto">
+                Discover the best travel packages curated just for you. Explore amazing destinations and unforgettable experiences.
+            </p>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Photos</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <img src="photo1.jpg" alt="Photo 1" class="w-full h-48 object-cover rounded-lg hover:scale-105 transition-transform duration-300">
+                <img src="photo2.jpg" alt="Photo 2" class="w-full h-48 object-cover rounded-lg hover:scale-105 transition-transform duration-300">
+                <img src="photo3.jpg" alt="Photo 3" class="w-full h-48 object-cover rounded-lg hover:scale-105 transition-transform duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages and Inquiry Box Section -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Tour Packages -->
+            <div>
+                <h2 class="text-3xl font-bold mb-4">Tour Packages</h2>
+                <p class="text-lg text-gray-600 mb-4">Explore our carefully crafted tour packages and choose your next adventure.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-2">Beach Paradise - 7 Days</li>
+                    <li class="mb-2">Mountain Escape - 5 Days</li>
+                    <li class="mb-2">Cultural Tour - 10 Days</li>
+                    <li class="mb-2">City Adventure - 3 Days</li>
+                </ul>
+            </div>
+
+            <!-- Inquiry Box -->
+            <div class="bg-blue-100 p-8 rounded-lg shadow-lg animate-pulse">
+                <h2 class="text-2xl font-bold mb-4">Inquiry Form</h2>
+                <form action="#" method="POST" class="space-y-4">
+                    <input type="text" name="name" placeholder="Your Name" class="w-full p-2 rounded-lg border border-gray-300">
+                    <input type="email" name="email" placeholder="Your Email" class="w-full p-2 rounded-lg border border-gray-300">
+                    <textarea name="message" rows="4" placeholder="Your Message" class="w-full p-2 rounded-lg border border-gray-300"></textarea>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Team</h2>
+            <p class="text-lg text-gray-600 max-w-xl mx-auto">
+                Meet our dedicated team of travel experts, ready to make your journey unforgettable.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Details Section -->
+    <section class="bg-blue-600 py-12">
+        <div class="container mx-auto text-center text-white">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <p class="text-lg">Email: info@tourpackages.com</p>
+            <p class="text-lg">Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-700 py-4">
+        <div class="container mx-auto text-center text-white">
+            &copy; 2024 Tour Packages. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
